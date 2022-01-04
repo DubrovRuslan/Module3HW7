@@ -5,17 +5,6 @@ namespace Module3HW7
 {
     internal class Program
     {
-        public event Action<State> Message = (state) => 
-        {
-            if (state == State.Ok)
-            {
-                Console.WriteLine("Ok - операция была подтверждена");
-            }
-            else
-            {
-                Console.WriteLine("Ok - операция была подтверждена");
-            }
-        };
         static void Main(string[] args)
         {
             var messageBox = new MessageBox();
