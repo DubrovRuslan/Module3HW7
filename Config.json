@@ -1,0 +1,6 @@
+{
+  "TimeFormat": "hh.mm.fffff",
+  "FileExtension": ".txt",
+  "LogCountBackup_N": 10,
+  "BackUpDirectotyPath": "./Backup"
+}
